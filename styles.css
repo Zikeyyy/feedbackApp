@@ -104,6 +104,8 @@ h2 {
 .rating-images p{
     font-size: .6rem;
     font-weight: 200;
+    margin-top: -8px;
+    opacity: .9;
 }
 
 .input-area{
