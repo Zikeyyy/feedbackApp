@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ED1B24;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.logo {
+    max-height: 15vh;
+}
+
+.body-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 20px 10vw 40px 10vw;
+}
+
+.input {
+    color: #a3161d;
+    font-size: .8rem;
+    min-width: 56vw;
+    padding: 3px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    min-height: 4vh;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    stroke: none;
+    border: #94141A;
+    max-width: 80vw;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.btn {
+    padding: 8px;
+    border-radius: 10px;
+    stroke: none;
+    width: 90px;
+    margin-top: 10px;
+    color: #94141A;
+    border: #F80000;
+    font-family: inherit;
+    font-weight: bold;
+    transition: ease-in .5s;
+}
+
+.btn:hover {
+    background-color: #F80000;
+    color: white;
+}
+
+.faces-area {
+    display: inline;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.faces-area svg {
+    min-width: 20vw;
+    min-height: 20vh;
+    padding: 10px;
+    opacity: .5;
+    transition: ease-in 1s;
+}
+
+.faces-area svg:hover {
+    opacity: 1;
+}
