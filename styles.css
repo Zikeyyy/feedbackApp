@@ -93,6 +93,19 @@ h2 {
     opacity: 1;
 }
 
+.rating-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.rating-images p{
+    font-size: .6rem;
+    font-weight: 200;
+}
+
 .input-area{
     display: flex;
     flex-direction: row;
