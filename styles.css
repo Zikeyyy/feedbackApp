@@ -51,13 +51,16 @@ h2 {
 
 .input:focus {
     outline: none;
+    border: solid #F80000;
+    border-radius: 4px;
 }
 
 .btn {
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 8px;
     stroke: none;
     width: 90px;
+    margin-left: 5px;
     margin-top: 10px;
     color: #94141A;
     border: #F80000;
@@ -74,7 +77,8 @@ h2 {
 .faces-area {
     display: inline;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
+    margin-top: -10px;
 }
 
 .faces-area svg {
@@ -87,4 +91,11 @@ h2 {
 
 .faces-area svg:hover {
     opacity: 1;
+}
+
+.input-area{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
 }
