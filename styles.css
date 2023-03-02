@@ -5,6 +5,7 @@
     -webkit-user-select: none; 
     -ms-user-select: none; 
     user-select: none; 
+    max-width: 480px;
 }
 
 body {
