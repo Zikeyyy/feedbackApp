@@ -5,7 +5,7 @@
     -webkit-user-select: none; 
     -ms-user-select: none; 
     user-select: none; 
-/*  max-width: 480px; */
+   /*  max-width: 480px; */
 }
 
 body {
@@ -92,7 +92,7 @@ h2 {
     min-height: 20vh;
     padding: 10px;
     opacity: .5;
-    transition: ease-in 1s;
+    transition: ease-in .5s;
 }
 
 .faces-area svg:hover {
