@@ -32,6 +32,13 @@ h1 {
     font-size: 3.5rem;
     font-weight: bold;
     margin-top: -20px;
+    color: #a3161d;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 25px;
 }
 
 h2 {
